@@ -17,6 +17,11 @@ public class TestPlato {
 		platoA.precio = 6.5;
 		platoA.disponible = true;
 		
+		System.out.println("Nombre: "+ platoA.nombre);
+		System.out.println("Tipo: "+ platoA.tipo);
+		System.out.println("Precio: "+ platoA.precio);
+		System.out.println("Disponible: "+ platoA.disponible);
+		
 		Plato platoB = new Plato();
 		
 		System.out.println("=======Plato B========");
@@ -27,8 +32,13 @@ public class TestPlato {
 		
 		platoB.nombre = "Arroz marinero";
 		platoB.tipo = "Plato fuerte";
-		platoB.precio = 15.00;
+		platoB.precio = 15.0;
 		platoB.disponible = true;
+		
+		System.out.println("Nombre: "+ platoB.nombre);
+		System.out.println("Tipo: "+ platoB.tipo);
+		System.out.println("Precio: "+ platoB.precio);
+		System.out.println("Disponible: "+ platoB.disponible);
 		
 		Plato platoC = new Plato();
 		
@@ -40,8 +50,13 @@ public class TestPlato {
 		
 		platoC.nombre = "Tarta de queso";
 		platoC.tipo = "Postre";
-		platoC.precio = 6.00;
+		platoC.precio = 6.0;
 		platoC.disponible = false;
+		
+		System.out.println("Nombre: "+ platoC.nombre);
+		System.out.println("Tipo: "+ platoC.tipo);
+		System.out.println("Precio: "+ platoC.precio);
+		System.out.println("Disponible: "+ platoC.disponible);
 
 	}
 
