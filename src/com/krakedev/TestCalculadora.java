@@ -8,6 +8,7 @@ public class TestCalculadora {
 		
 		int r1;
 		int r2;
+		double r3;
 		
 		r1 = c1.sumar(5, 8);
 		
@@ -15,6 +16,9 @@ public class TestCalculadora {
 		
 		r2 = c1.restar(10, 4);
 		System.out.println("El resulatdo de la resta es: "+ r2);
+		
+		r3 = c1.multiplicar(4.5, 5.5);
+		System.out.println("El resulatdo de la resta es: "+ r3);
 		
 
 	}
