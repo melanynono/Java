@@ -38,4 +38,15 @@ public class Calculadora {
 		
 	}
     
+    public double promedio(double a, double b, double c) {
+    	
+    	double sumar;
+    	double resultado;
+    	
+    	sumar = a + b + c ;
+    	resultado = sumar / 3;
+    	
+    	return resultado;
+    	
+    }
 }
