@@ -28,6 +28,8 @@ public class TestCalculadora {
 		p = c1.promedio(8.5, 9.0, 9.7);
 		System.out.println("El promedio es: "+ p);
 		
+		c1.mostrarResultado();
+		
 
 	}
 
