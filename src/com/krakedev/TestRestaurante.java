@@ -8,32 +8,32 @@ public class TestRestaurante {
 		
 		System.out.println("--------Restaurante 1---------");
 		
-		System.out.println("Nombre: " + rest1.nombre);
-		System.out.println("Direccion: " + rest1.direccion);
-		System.out.println("Calificacion: " + rest1.calificacion);
+		System.out.println("Nombre: " + rest1.getNombre());
+		System.out.println("Direccion: " + rest1.getDireccion());
+		System.out.println("Calificacion: " + rest1.getCalificacion());
 		
-		rest1.nombre = "McDonald's";
-		rest1.direccion = "Centro Comercial Portal";
-		rest1.calificacion = 4.3;
+		rest1.setNombre("McDonald's");
+		rest1.setDireccion("Centro Comercial Portal");
+		rest1.setCalificacion(4.3);
 		
-		System.out.println("Nombre: " + rest1.nombre);
-		System.out.println("Direccion: " + rest1.direccion);
-		System.out.println("Calificacion: " + rest1.calificacion);
+		System.out.println("Nombre: " + rest1.getNombre());
+		System.out.println("Direccion: " + rest1.getDireccion());
+		System.out.println("Calificacion: " + rest1.getCalificacion());
 		
 		Restaurante rest2 = new Restaurante();
         System.out.println("--------Restaurante 2---------");
 		
-		System.out.println("Nombre: " + rest2.nombre);
-		System.out.println("Direccion: " + rest2.direccion);
-		System.out.println("Calificacion: " + rest2.calificacion);
+		System.out.println("Nombre: " + rest2.getNombre());
+		System.out.println("Direccion: " + rest2.getDireccion());
+		System.out.println("Calificacion: " + rest2.getCalificacion());
 		
-		rest2.nombre = "Las menestras del Negro";
-		rest2.direccion = "Av 6 Diciembre";
-		rest2.calificacion = 4.4;
+		rest2.setNombre("Las menestras del Negro");
+		rest2.setDireccion("Av 6 Diciembre");
+		rest2.setCalificacion(4.4);
 		
-		System.out.println("Nombre: " + rest2.nombre);
-		System.out.println("Direccion: " + rest2.direccion);
-		System.out.println("Calificacion: " + rest2.calificacion);
+		System.out.println("Nombre: " + rest2.getNombre());
+		System.out.println("Direccion: " + rest2.getDireccion());
+		System.out.println("Calificacion: " + rest2.getCalificacion());
 
 
 	}
