@@ -7,10 +7,11 @@ public class TestCalculadora {
 		Calculadora c1 = new Calculadora();
 		
 		int r1;
-		int r2;
+		double r2;
 		double r3;
 		double r4;
 		double p;
+		
 		
 		r1 = c1.sumar(5, 8);
 		
@@ -29,6 +30,21 @@ public class TestCalculadora {
 		System.out.println("El promedio es: "+ p);
 		
 		c1.mostrarResultado();
+		
+		Calculadora c2 = new Calculadora();
+		
+		double restar;
+		restar = c2.restar(100.5, 40.5);
+		
+		double descuento;
+		descuento = c2.calclarDescuento(200, 15);
+		
+		System.out.println("El resultado es: "+ restar);
+		System.out.println("El decuento es: "+ descuento);
+		
+		
+		
+		
 		
 
 	}
