@@ -2,7 +2,7 @@ package com.krakedev;
 
 public class Cuadrado {
 	
-	public double lado;
+	private double lado;
 	
 	public double calcularArea() {
 		
@@ -19,6 +19,18 @@ public class Cuadrado {
 		return perimetro;
 		
 	}
+	
+	
+
+	public double getLado() {
+		return lado;
+	}
+
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+	
+	
 
 }
 

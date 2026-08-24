@@ -6,8 +6,8 @@ public class TestRectangulo {
 		
 		Rectangulo r1 = new Rectangulo();
 		
-		r1.altura = 4;
-		r1.base = 5;
+		r1.setAltura(4);
+		r1.setBase(5);
 		
 		int resultadoArea;
 		resultadoArea = r1.calcularArea();
@@ -16,18 +16,18 @@ public class TestRectangulo {
 		Rectangulo r2 = new Rectangulo();
 		int resultadoArea2;
 		
-		r2.altura = 8;
-		r2.base = 2;
+		r2.setAltura(8);
+		r2.setBase(2);
 		
 		resultadoArea2 = r2.calcularArea();
-		System.out.println("Resultado ectangulo 2: "+ resultadoArea2);
+		System.out.println("Resultado rectangulo 2: "+ resultadoArea2);
 		
 		
 		Rectangulo p = new Rectangulo();
 		double resultadoPerimetro;
 		
-		p.base1 = 4;
-		p.altura1 = 2;
+		p.setBase1(4);
+		p.setAltura1(2);
 
 		resultadoPerimetro= p.calcularPerimetro();
 		System.out.println("El perimetro es : "+ resultadoPerimetro);
